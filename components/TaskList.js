@@ -1,7 +1,7 @@
 const TaskList = ({ tasks, toggleTask, deleteTask }) => {
     return (
       <div style={{ textAlign: "center", padding: "10px" }}>
-        {tasks.length === 0 ? ( // Conditional Rendering
+        {tasks.length === 0 ? (
           <p>No tasks available.</p>
         ) : (
           <ul style={{ padding: "0" }}>

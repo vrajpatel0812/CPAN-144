@@ -7,7 +7,7 @@ const TaskForm = ({ addTask }) => {
     e.preventDefault();
     if (task.trim()) {
       addTask(task);
-      setTask(""); // Clear input
+      setTask("");
     }
   };
 
